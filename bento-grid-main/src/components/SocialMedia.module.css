@@ -1,0 +1,10 @@
+div .social-media {
+  width: 100%;
+  height: 400px;
+  background-color: hsl(256, 67%, 59%);
+}
+div .social-media .social-media-number {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=SocialMedia.module.css.map */

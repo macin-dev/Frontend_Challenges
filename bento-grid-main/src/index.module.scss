@@ -1,4 +1,4 @@
-@import "color.module";
+@use "color.module" as *;
 
 // Formating default styles
 * {
@@ -35,9 +35,20 @@ $font-family: "DM Sans", sans-serif;
 body{
   font-size: 18px;
   font-family: $font-family;
+  background-color: $yellow-100-color;
 }
 
-h1 {
-  font-weight: 500;
-  color: $purple-100-color;
+.app {
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+// Breakpoints
+
+@media only screen and (min-width: 370px) {
+  .app {
+    padding: 2rem;
+  }
 }

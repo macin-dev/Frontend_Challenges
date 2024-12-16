@@ -1,12 +1,15 @@
 import SocialMedia from "./components/SocialMedia.jsx";
+import MultiplePlatforms from "./components/MultiplePlatforms.jsx";
 
-import "./index.module.scss";
-import "./color.module.scss";
+import styles from "./index.module.scss";
 
-function App (){
- return (
-     <SocialMedia />
- )
+function App() {
+    return (
+        <main className={styles.app}>
+            <SocialMedia/>
+            <MultiplePlatforms />
+        </main>
+    )
 }
 
 export default App;

@@ -1,10 +1,35 @@
-div .social-media {
+.socialMedia {
   width: 100%;
-  height: 400px;
   background-color: hsl(256, 67%, 59%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
 }
-div .social-media .social-media-number {
+.socialMedia h1 {
   font-size: 40px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  line-height: 2.5rem;
+}
+.socialMedia h1 .socialMediaNumber {
+  color: hsl(39, 100%, 71%);
+}
+.socialMedia h1 .socialMediaItalic {
+  font-style: italic;
+}
+
+.socialMediaBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMediaText {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=SocialMedia.module.css.map */

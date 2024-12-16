@@ -25,11 +25,20 @@
 body {
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
+  background-color: hsl(31, 66%, 93%);
 }
 
-h1 {
-  font-weight: 500;
-  color: hsl(254, 88%, 90%);
+.app {
+  display: grid;
+  justify-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+@media only screen and (min-width: 370px) {
+  .app {
+    padding: 2rem;
+  }
 }
 
 /*# sourceMappingURL=index.module.css.map */

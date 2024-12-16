@@ -1,0 +1,15 @@
+.rating {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.star {
+  background-color: transparent;
+  border: none;
+  width: 35px;
+}
+
+/*# sourceMappingURL=Rating.module.css.map */

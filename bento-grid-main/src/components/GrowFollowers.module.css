@@ -8,7 +8,7 @@
   padding: 2rem;
 }
 .growFollowers img {
-  width: 300px;
+  width: 100%;
 }
 .growFollowers .growFollowersTitle {
   color: hsl(0, 0%, 100%);
@@ -16,6 +16,15 @@
   font-size: 35px;
   line-height: 1.8rem;
   text-align: center;
+}
+
+@media only screen and (min-width: 320px) {
+  .growFollowers {
+    grid-area: grow-followers;
+  }
+  .growFollowers img {
+    width: 250px;
+  }
 }
 
 /*# sourceMappingURL=GrowFollowers.module.css.map */

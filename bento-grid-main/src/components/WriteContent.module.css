@@ -7,11 +7,20 @@
   background-color: hsl(39, 100%, 71%);
 }
 .contentSection img {
-  width: 250px;
+  width: 100%;
 }
 .contentSection .contentTitle {
   font-size: 2rem;
   line-height: 2rem;
+}
+
+@media only screen and (min-width: 375px) {
+  .contentSection {
+    grid-area: write-content;
+  }
+  .contentSection img {
+    width: 250px;
+  }
 }
 
 /*# sourceMappingURL=WriteContent.module.css.map */

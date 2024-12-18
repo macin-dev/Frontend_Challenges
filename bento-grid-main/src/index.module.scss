@@ -35,19 +35,47 @@ $font-family: "DM Sans", sans-serif;
 body {
   font-size: 18px;
   font-family: $font-family;
-  background-color: $yellow-100-color;
+  display: flex;
+  justify-content: center;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background-color: $white-color;
+  background-color: $bg-main-color;
 }
 
 // Breakpoints
 @media only screen and (min-width: 320px) {
   .app {
     padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .app {
+    width: 375px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .app {
+    width: 1400px;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: [first-column] 300px [second-column] 1fr [third-column] 1fr [fourth-column] 300px [end-column];
+    grid-template-rows: [first-row] 350px [second-row] 50px [third-row] 150px [fourth-row] 250px [end-row];
+    // Height = 350 + 50 (400) + 250 + 150 (400)
+    // grid-template-areas
+    // Define a grid template by referencing the names of the grid
+    grid-template-areas:
+      "create-content social-media social-media schedule-media"
+      "create-content multiple-platform posting-schedule schedule-media"
+      "write-content multiple-platform posting-schedule schedule-media"
+      "write-content audience-growth grow-followers grow-followers";
   }
 }

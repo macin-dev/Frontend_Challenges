@@ -9,7 +9,7 @@
   padding: 2rem;
 
   img {
-    width: 200px;
+    width: 100%;
   }
 
   .contentTitle {
@@ -19,5 +19,20 @@
       color: $purple-500-color;
       font-style: italic;
     }
+  }
+}
+
+// Breakpoints
+@media only screen and (min-width: 320px) {
+  .contentSection {
+    img {
+      width: 200px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .contentSection {
+    grid-area: create-content;
   }
 }

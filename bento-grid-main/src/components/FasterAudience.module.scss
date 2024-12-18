@@ -9,7 +9,7 @@
   background-color: $white-color;
 
   img {
-    width: 200px;
+    width: 100%;
   }
 
   .audienceGrowth {
@@ -18,5 +18,16 @@
 
   .audienceText {
     font-size: 1.2rem;
+  }
+}
+
+// Breakpoints
+@media only screen and (min-width: 320px) {
+  .audienceSection {
+    img {
+      width: 200px;
+    }
+
+    grid-area: audience-growth;
   }
 }

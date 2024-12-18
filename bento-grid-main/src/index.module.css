@@ -25,19 +25,38 @@
 body {
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
-  background-color: hsl(31, 66%, 93%);
+  display: flex;
+  justify-content: center;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #f4f4f4;
 }
 
 @media only screen and (min-width: 320px) {
   .app {
     padding: 1rem;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .app {
+    width: 375px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .app {
+    width: 1400px;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: [first-column] 300px [second-column] 1fr [third-column] 1fr [fourth-column] 300px [end-column];
+    grid-template-rows: [first-row] 350px [second-row] 50px [third-row] 150px [fourth-row] 250px [end-row];
+    grid-template-areas: "create-content social-media social-media schedule-media" "create-content multiple-platform posting-schedule schedule-media" "write-content multiple-platform posting-schedule schedule-media" "write-content audience-growth grow-followers grow-followers";
   }
 }
 

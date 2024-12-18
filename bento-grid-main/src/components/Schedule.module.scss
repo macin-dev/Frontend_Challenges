@@ -9,10 +9,21 @@
   border-radius: 12px;
   padding: 1rem 2rem 0 1rem;
   img {
-    width: 200px;
+    width: 100%;
   }
 }
 
 .scheduleText {
   line-height: 1.5rem;
+}
+
+// Breakpoints
+@media only screen and (min-width: 320px) {
+  .schedule {
+    img {
+      width: 200px;
+    }
+
+    grid-area: posting-schedule;
+  }
 }

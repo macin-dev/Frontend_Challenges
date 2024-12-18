@@ -9,11 +9,21 @@
   background-color: $yellow-500-color;
 
   img {
-    width: 250px;
+    width: 100%;
   }
 
   .contentTitle {
     font-size: 2rem;
     line-height: 2rem;
+  }
+}
+
+// Breakpoints
+@media only screen and (min-width: 375px) {
+  .contentSection {
+    img {
+      width: 250px;
+    }
+    grid-area: write-content;
   }
 }

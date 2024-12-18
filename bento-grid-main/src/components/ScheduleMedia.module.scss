@@ -15,6 +15,17 @@
   }
 
   img {
-    width: 300px;
+    width: 100%;
+  }
+}
+
+// Breakpoints
+@media only screen and (min-width: 375px) {
+  .scheduleMedia {
+    img {
+      width: 300px;
+    }
+
+    grid-area: schedule-media;
   }
 }

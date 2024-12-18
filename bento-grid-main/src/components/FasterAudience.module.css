@@ -7,13 +7,22 @@
   background-color: hsl(0, 0%, 100%);
 }
 .audienceSection img {
-  width: 200px;
+  width: 100%;
 }
 .audienceSection .audienceGrowth {
   font-size: 3rem;
 }
 .audienceSection .audienceText {
   font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .audienceSection {
+    grid-area: audience-growth;
+  }
+  .audienceSection img {
+    width: 200px;
+  }
 }
 
 /*# sourceMappingURL=FasterAudience.module.css.map */

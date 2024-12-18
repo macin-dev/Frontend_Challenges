@@ -14,9 +14,9 @@
   line-height: 1.5rem;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 320px) {
   .multiplePlatforms {
-    max-width: 100%;
+    grid-area: multiple-platform;
   }
   .multiplePlatforms img {
     width: 300px;

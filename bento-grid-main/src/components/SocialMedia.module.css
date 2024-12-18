@@ -33,4 +33,10 @@
   text-align: center;
 }
 
+@media only screen and (min-width: 1440px) {
+  .socialMedia {
+    grid-area: social-media;
+  }
+}
+
 /*# sourceMappingURL=SocialMedia.module.css.map */

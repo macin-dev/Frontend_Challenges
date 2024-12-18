@@ -10,7 +10,7 @@
   padding: 2rem;
 
   img {
-    width: 300px;
+    width: 100%;
   }
 
   .growFollowersTitle {
@@ -19,5 +19,17 @@
     font-size: 35px;
     line-height: 1.8rem;
     text-align: center;
+  }
+}
+
+
+// Breakpoints
+@media only screen and (min-width: 320px) {
+  .growFollowers {
+    img {
+      width: 250px;
+    }
+
+    grid-area: grow-followers;
   }
 }

@@ -10,7 +10,7 @@
 // Setting custom fonts hosted locally
 @font-face {
   font-family: "DM Sans";
-    src: url("./assets/fonts/static/DMSans-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/static/DMSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,23 +32,22 @@
 // Global font variable
 $font-family: "DM Sans", sans-serif;
 
-body{
+body {
   font-size: 18px;
   font-family: $font-family;
   background-color: $yellow-100-color;
 }
 
 .app {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-  padding: 2rem 0;
+  background-color: $white-color;
 }
 
 // Breakpoints
-
-@media only screen and (min-width: 370px) {
+@media only screen and (min-width: 320px) {
   .app {
-    padding: 2rem;
+    padding: 1rem;
   }
 }

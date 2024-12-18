@@ -29,15 +29,15 @@ body {
 }
 
 .app {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-  padding: 2rem 0;
+  background-color: hsl(0, 0%, 100%);
 }
 
-@media only screen and (min-width: 370px) {
+@media only screen and (min-width: 320px) {
   .app {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 

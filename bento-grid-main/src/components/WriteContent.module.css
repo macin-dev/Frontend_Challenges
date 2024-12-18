@@ -1,0 +1,17 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  background-color: hsl(39, 100%, 71%);
+}
+.contentSection img {
+  width: 250px;
+}
+.contentSection .contentTitle {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+/*# sourceMappingURL=WriteContent.module.css.map */

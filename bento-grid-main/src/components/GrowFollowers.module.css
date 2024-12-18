@@ -1,0 +1,21 @@
+.growFollowers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 12px;
+  background-color: hsl(256, 67%, 59%);
+  padding: 2rem;
+}
+.growFollowers img {
+  width: 300px;
+}
+.growFollowers .growFollowersTitle {
+  color: hsl(0, 0%, 100%);
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=GrowFollowers.module.css.map */

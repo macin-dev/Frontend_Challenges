@@ -1,16 +1,16 @@
 @use "../color.module" as *;
 
 .socialMedia {
-    width: 100%;
+    min-width: 100%;
     background-color: $purple-500-color;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 2rem;
     border-radius: 12px;
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
         text-align: center;
         color: $white-color;
         line-height: 2.5rem;
@@ -32,4 +32,5 @@
 .socialMediaText {
     color: $white-color;
     font-size: 1.2rem;
+    text-align: center;
 }

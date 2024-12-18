@@ -1,0 +1,22 @@
+@use "../color.module" as *;
+
+.audienceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  background-color: $white-color;
+
+  img {
+    width: 200px;
+  }
+
+  .audienceGrowth {
+    font-size: 3rem;
+  }
+
+  .audienceText {
+    font-size: 1.2rem;
+  }
+}

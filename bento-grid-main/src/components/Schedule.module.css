@@ -1,0 +1,17 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 12px;
+  padding: 1rem 2rem 0 1rem;
+}
+.schedule img {
+  width: 200px;
+}
+
+.scheduleText {
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=Schedule.module.css.map */

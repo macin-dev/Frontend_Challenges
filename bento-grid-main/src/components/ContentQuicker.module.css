@@ -1,0 +1,21 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: hsl(31, 66%, 93%);
+  border-radius: 12px;
+  padding: 2rem;
+}
+.contentSection img {
+  width: 200px;
+}
+.contentSection .contentTitle {
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+.contentSection .contentTitle .contentSubTitle {
+  color: hsl(256, 67%, 59%);
+  font-style: italic;
+}
+
+/*# sourceMappingURL=ContentQuicker.module.css.map */

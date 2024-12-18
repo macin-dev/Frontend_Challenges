@@ -1,0 +1,23 @@
+@use "../color.module" as *;
+
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: $yellow-100-color;
+  border-radius: 12px;
+  padding: 2rem;
+
+  img {
+    width: 200px;
+  }
+
+  .contentTitle {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    .contentSubTitle {
+      color: $purple-500-color;
+      font-style: italic;
+    }
+  }
+}

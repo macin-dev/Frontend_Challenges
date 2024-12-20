@@ -17,9 +17,17 @@
 @media only screen and (min-width: 375px) {
   .contentSection {
     grid-area: write-content;
+    justify-content: space-between;
+    padding: 1rem;
   }
   .contentSection img {
     width: 250px;
+  }
+  .contentSection .contentTitle {
+    width: 80%;
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+    line-height: 2.2rem;
   }
 }
 

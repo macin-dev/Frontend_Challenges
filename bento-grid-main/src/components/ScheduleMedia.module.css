@@ -18,9 +18,20 @@
 @media only screen and (min-width: 375px) {
   .scheduleMedia {
     grid-area: schedule-media;
+    padding: 0 3rem;
+    justify-content: center;
+    gap: 1.5rem;
   }
   .scheduleMedia img {
-    width: 300px;
+    margin-left: 200px;
+    width: 400px;
+  }
+  .scheduleMedia h2 {
+    font-size: 2rem;
+    line-height: 1.7rem;
+  }
+  .scheduleMedia .scheduleMediaText {
+    text-align: start;
   }
 }
 

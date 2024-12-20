@@ -20,10 +20,18 @@
 // Breakpoints
 @media only screen and (min-width: 320px) {
   .multiplePlatforms {
+    grid-area: multiple-platform;
+    justify-content: space-between;
+    overflow: hidden;
+
     img {
-      width: 300px;
+      width: 460px;
+    }
+    .multiplePlatformText {
+      width: 70%;
+      font-size: 1.5rem;
+      line-height: 1.7rem;
     }
 
-    grid-area: multiple-platform  ;
   }
 }

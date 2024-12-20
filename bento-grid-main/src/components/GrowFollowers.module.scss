@@ -26,10 +26,20 @@
 // Breakpoints
 @media only screen and (min-width: 320px) {
   .growFollowers {
+    grid-area: grow-followers;
+    flex-direction: row;
+    padding: 1.5rem;
+    justify-content: space-between;
+
     img {
       width: 250px;
     }
 
-    grid-area: grow-followers;
+    .growFollowersTitle {
+      font-size: 3rem;
+      text-align: start;
+      line-height: 2.5rem;
+    }
+
   }
 }

@@ -21,9 +21,19 @@
 // Breakpoints
 @media only screen and (min-width: 375px) {
   .contentSection {
+    grid-area: write-content;
+    justify-content: space-between;
+    padding: 1rem;
+
     img {
       width: 250px;
     }
-    grid-area: write-content;
+
+    .contentTitle {
+      width: 80%;
+      font-size: 2.5rem;
+      letter-spacing: -2px;
+      line-height: 2.2rem;
+    }
   }
 }

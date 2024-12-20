@@ -60,6 +60,11 @@ body {
 }
 
 @media only screen and (min-width: 1400px) {
+  body {
+    align-items: center;
+    height: 100vh;
+  }
+
   .app {
     width: 1400px;
     height: 100%;
@@ -69,7 +74,7 @@ body {
     gap: 2rem;
     grid-template-columns: [first-column] 300px [second-column] 1fr [third-column] 1fr [fourth-column] 300px [end-column];
     grid-template-rows: [first-row] 350px [second-row] 50px [third-row] 150px [fourth-row] 250px [end-row];
-    // Height = 350 + 50 (400) + 250 + 150 (400)
+    // Height = 350 + 50 (400) + 150 + 250 (400)
     // grid-template-areas
     // Define a grid template by referencing the names of the grid
     grid-template-areas:

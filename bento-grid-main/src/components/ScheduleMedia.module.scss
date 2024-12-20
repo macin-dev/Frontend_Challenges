@@ -22,10 +22,24 @@
 // Breakpoints
 @media only screen and (min-width: 375px) {
   .scheduleMedia {
+    grid-area: schedule-media;
+    padding: 0 3rem;
+    justify-content: center;
+    gap: 1.5rem;
+
     img {
-      width: 300px;
+      margin-left: 200px;
+      width: 400px;
     }
 
-    grid-area: schedule-media;
+   h2 {
+      font-size: 2rem;
+     line-height: 1.7rem;
+    }
+
+    .scheduleMediaText {
+      text-align: start;
+    }
+
   }
 }

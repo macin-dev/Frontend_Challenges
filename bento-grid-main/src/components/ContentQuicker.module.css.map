@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["ContentQuicker.module.scss","../color.module.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA,kBCHiB;EDIjB;EACA;;AAEA;EACE;;AAGF;EACE;EACA;;AACA;EACE,OChBa;EDiBb;;;AAMN;EAEI;IACE;;;AAKN;EACE;IACE","file":"ContentQuicker.module.css"}
+{"version":3,"sourceRoot":"","sources":["ContentQuicker.module.scss","../color.module.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA,kBCHiB;EDIjB;EACA;;AAEA;EACE;;AAGF;EACE;EACA;;AACA;EACE,OChBa;EDiBb;;;AAMN;EAEI;IACE;;;AAKN;EACE;IACE;IACA;;EACA;IACE;IACA","file":"ContentQuicker.module.css"}

@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header .header__state {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.header__state > span {
+    color: var(--third-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.header .header__state > img {
+    width: 28px;
+}

@@ -1,0 +1,24 @@
+:root {
+  --primary-bg: #dcdde1;
+  --secondary-bg: #f7f7f9;
+  --third-color: #434ce7;
+  --white-color: #ffffff;
+  --text-color: #89898e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--primary-bg);
+  padding: 2rem 0;
+  font-family: "Roboto Light", sans-serif;
+}
+

@@ -1,0 +1,8 @@
+.container{
+    background: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 1rem;
+}
+

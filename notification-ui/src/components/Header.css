@@ -25,3 +25,9 @@
 .header .header__state > img {
     width: 28px;
 }
+
+@media screen and (min-width: 660px) {
+    .header__title {
+        font-size: 1.5rem;
+    }
+}

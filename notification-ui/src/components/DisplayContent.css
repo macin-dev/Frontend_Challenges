@@ -1,0 +1,6 @@
+.notification__content-dropdown {
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
+  background-color: var(--white-color);
+  height: auto;
+}

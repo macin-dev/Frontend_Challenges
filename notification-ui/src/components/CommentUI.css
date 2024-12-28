@@ -1,0 +1,6 @@
+.comment__section-ui {
+  width: 100%;
+  background-color: var(--secondary-bg);
+  border-radius: 12px;
+  padding: 1rem;
+}

@@ -1,79 +1,90 @@
+.notification__grid {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+}
+
 .user__notification {
-    background: var(--white-color);
-    border-radius: 12px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    position: relative;
+  grid-area: 1 / 1 / 2 / 3;
+  background: var(--white-color);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.user__notification:hover {
+  background-color: var(--secondary-bg);
 }
 
 .notification__user-avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .notification__user-avatar > img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .user__notification-content {
-    flex: 1 1 0;
-    display: flex;
-    flex-direction: column;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .notification__content-sub {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
 
 .notification__user-action {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .notification__date {
-    font-size: 0.9rem;
-    color: var(--text-color);
+  font-size: 0.9rem;
+  color: var(--text-color);
 }
 
 .notification__posting-time {
-    align-self: end;
-    font-size: 0.8rem;
-    color: var(--text-color);
+  align-self: end;
+  font-size: 0.8rem;
+  color: var(--text-color);
 }
 
 /*Indicator*/
 .notification__indicator {
-    position: absolute;
-    background-color: var(--third-color);
-    width: 12px;
-    height: 12px    ;
-    border-radius: 50%;
-    top: 10px;
-    right: 10px;
+  position: absolute;
+  background-color: var(--third-color);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
 }
 
 /*Breakpoints*/
 /*Tablet = 660px */
 @media screen and (min-width: 660px) {
-    .user__notification-content {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .user__notification-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .notification__user-action {
-        font-size: 1rem;
-    }
+  .notification__user-action {
+    font-size: 1rem;
+  }
 
-    .notification__indicator {
-        width: 15px;
-        height: 15px;
-    }
+  .notification__indicator {
+    width: 15px;
+    height: 15px;
+  }
 }

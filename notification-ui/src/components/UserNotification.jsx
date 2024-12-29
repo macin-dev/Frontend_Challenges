@@ -29,7 +29,6 @@ function UserNotification({
           username={username}
           date={date}
           time={time}
-          dropdown={dropdown}
           invited_event={invited_event}
         />
         <Indicator />

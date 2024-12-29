@@ -4,3 +4,7 @@
   border-radius: 12px;
   padding: 1rem;
 }
+
+.comment__section-ui > span {
+  line-height: 1.5rem;
+}

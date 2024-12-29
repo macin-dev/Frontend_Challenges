@@ -1,33 +1,33 @@
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__title {
-    font-size: 1.2rem;
-    font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .header .header__state {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .header__state > span {
-    color: var(--third-color);
-    font-size: 0.8rem;
-    font-weight: 600;
+  color: var(--third-color);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .header .header__state > img {
-    width: 28px;
+  width: 28px;
 }
 
 @media screen and (min-width: 660px) {
-    .header__title {
-        font-size: 1.5rem;
-    }
+  .header__title {
+    font-size: 1.5rem;
+  }
 }

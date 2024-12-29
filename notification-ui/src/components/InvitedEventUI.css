@@ -1,16 +1,28 @@
 .event__section-ui {
+  background-color: var(--white-color);
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 12px;
 }
 
 .btn {
-  width: 80px;
-  border-radius: 12px;
+  width: 90px;
+  height: 44px;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--secondary-bg);
+  border: 1px solid var(--text-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.event__section-btn-decline {
+  background-color: var(--secondary-color);
+}
+.event__section-btn-accept {
+  background-color: var(--third-color);
+  color: var(--white-color);
 }

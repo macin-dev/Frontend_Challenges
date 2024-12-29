@@ -28,6 +28,11 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    padding: 0;
   }
 }

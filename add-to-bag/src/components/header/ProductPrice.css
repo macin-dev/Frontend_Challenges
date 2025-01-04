@@ -2,11 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .product__price-values {
   display: flex;
-  align-items: end;
-  gap: 0.5rem;
+  align-items: start;
+  gap: 1rem;
 }
 .product__price-reviews {
   display: flex;
@@ -23,6 +25,7 @@
 }
 .product__price-compare {
   font-size: 1.4rem;
+  text-decoration-line: line-through;
 }
 .product__price-percentage-off {
   background-color: var(--gold-color);

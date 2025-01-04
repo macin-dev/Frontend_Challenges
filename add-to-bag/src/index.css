@@ -13,6 +13,17 @@
   --star-color: #a08a62;
 }
 
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("/src/assets/fonts/FoundersGrotesk-Regular.otf"), format("opentype"),
+    url("/src/assets/fonts/FoundersGrotesk-Light.otf"), format("opentype");
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Founders Grotesk", Helvetica, sans-serif;
+  font-style: light;
 }

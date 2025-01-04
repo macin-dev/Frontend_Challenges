@@ -1,0 +1,33 @@
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product__price-values {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+}
+.product__price-reviews {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.product__reviews-value {
+  font-size: 1.4rem;
+  color: #808080;
+}
+.product__price-original {
+  font-size: 1.6rem;
+  color: var(--red-color);
+}
+.product__price-compare {
+  font-size: 1.4rem;
+}
+.product__price-percentage-off {
+  background-color: var(--gold-color);
+  font-size: 1.4rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem 0rem;
+}

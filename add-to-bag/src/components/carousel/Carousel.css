@@ -1,3 +1,4 @@
+/* EMBLA COMPONENT STRUCTURE */
 .embla {
   overflow: hidden;
   position: relative;
@@ -8,6 +9,7 @@
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+  cursor: zoom-in;
 }
 .embla__slide > img {
   width: 100%;
@@ -46,4 +48,53 @@
 }
 .embla__dot--selected:after {
   box-shadow: inset 0 0 0 0.1rem var(--black-color);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/* EMBLA MODAL */
+.gallery__zoom-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white-color);
+}
+.gallery__zoom-modal-content {
+  display: grid;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white-color);
+  /* transition: background-color 0.5s ease-in-out; */
+}
+.gallery__zoom-modal-image-wrapper {
+  cursor: zoom-out;
+  width: 100%;
+  height: fit-content;
+}
+.gallery__zoom-modal-image-wrapper > img {
+  width: 100%;
+}
+.gallery__close-modal {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0.2rem solid var(--black-color);
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gallery__close-modal > img {
+  width: 1.4rem;
+  height: 1.4rem;
 }

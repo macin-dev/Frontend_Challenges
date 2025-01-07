@@ -12,12 +12,19 @@
   --black-shirt-color: #1d1d1d;
   --white-shirt-color: #e3e2e6;
   --star-color: #a08a62;
+  --text-color: #0e1c2c;
 }
 
 @font-face {
   font-family: "Founders Grotesk";
   src: url("/src/assets/fonts/FoundersGrotesk-Regular.otf"), format("opentype"),
     url("/src/assets/fonts/FoundersGrotesk-Light.otf"), format("opentype");
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("/src/assets/fonts/TestTiemposFine-Regular.otf"), format("opentype"),
+    url("/src/assets/fonts/TestTiemposFine-Light.otf") format("opentype");
 }
 
 html {
